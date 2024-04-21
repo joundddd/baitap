@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+    <style>
+        body{
+            width:960px;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+<h1>tính diện tích hình vuông</h1>
+<p>nhập số vào đây </p><input type="number" id="hihi" placeholder="nhập vào đây">
+<button onclick="hoho()">tìm kiếm</button>
+<p id="huha"></p>
+<script>
+function hoho(){
+    let a = document.getElementById("hihi").value;
+    if(a*a){
+        document.getElementById("huha").innerHTML='diện tích hình vuông là:'+ (a*a);
+    }
+}
+</script>
+</body>
+</html>

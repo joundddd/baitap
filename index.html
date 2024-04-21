@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+    <style>
+        body{
+          width:960px;
+            margin:0px auto;
+
+        }
+        h1{
+            margin:32px;
+            color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<h1>chuyển từ độ c sang feet</h1>
+<p>nhập độ c vào đây </p><input type="number" id="so-dau" placeholder="nhập độ c vào đây">
+<button onclick="huhu()">kiểm tra</button>
+<p id="haha"></p>
+<script>
+function huhu() {
+    let a = document.getElementById("so-dau").value
+
+    if(a * 9/5 + 35*1){
+        document.getElementById("haha").innerHTML='kết quả là:' + (a * 9/5 + 35*1)
+    }
+}
+</script>
+</body>
+</html>

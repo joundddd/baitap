@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 2</title>
+    <style>
+        body{
+            width:960px;
+            margin:0px auto;
+        }
+        h1{
+            color: olivedrab;
+        }
+    </style>
+</head>
+<body>
+<h1>nhập số m vào đây </h1>
+<p>nhập m vào đây </p><input type="number" id="so-dau" placeholder="nhập m vào đây">
+<button onclick="hihi()">kiểm tra</button>
+<p id="hahi"></p>
+<script>
+function hihi() {
+    let a = document.getElementById("so-dau").value;
+
+    if (a * 3.2808) {
+        document.getElementById("hahi").innerHTML = 'số feet là :' + (a * 3.2808);
+    }
+}
+</script>
+</body>
+</html>
